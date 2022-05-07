@@ -1,0 +1,94 @@
+/* Krasnej main page nastaveni */
+
+
+:root {
+    --clr-enter: rgb(255, 255, 255);
+    --clr-youtube: rgb(255, 255, 255);
+    --clr-bg:  linear-gradient(to top left, rgb(109, 0, 233), rgb(129, 1, 214), rgb(255, 0, 170));
+    --clr-texth: rgb(0, 0, 0);
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 98.3vh;
+    display: grid;
+    place-items: center;
+    place-content: center, padding;
+    background: var(--clr-bg);
+    font-family: "Pacifico", cursive;
+    color: var(--clr-enter);
+}
+
+.enter{
+    font-size: 5rem;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--clr-enter);
+    border: var(--clr-enter) .125em solid;
+    padding: .25em 1em;
+    border-radius: .25em;
+
+    text-shadow:0 0 0.125em hsla(0, 0%, 100%, 0.466), 0 0 .50em var(--clr-enter);
+    
+    box-shadow: 0 0 1em var(--clr-enter), inset 0 0 .5em var(--clr-enter);
+}
+
+.enter:hover{
+    transition: all 500ms linear;
+
+
+    font-size: 4.8rem;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--clr-texth);
+    background: var(--clr-enter);
+    border: var(--clr-enter) .125em solid;
+    padding: .25em 1em;
+    border-radius: .25em;
+
+    text-shadow:none;
+    
+    box-shadow: 0 0 2em var(--clr-enter), inset 0 0 .5em var(--clr-enter);
+}
+
+.yt{
+    font-size: 5rem;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--clr-youtube);
+    border: var(--clr-youtube) .125em solid;
+    padding: .25em 1em;
+    border-radius: .25em;
+
+    text-shadow:0 0 0.125em hsla(0, 0%, 100%, 0.466), 0 0 .50em var(--clr-youtube);
+    
+    box-shadow: 0 0 1em var(--clr-youtube), inset 0 0 .5em var(--clr-youtube);
+}
+
+.yt:hover{ 
+    transition: all 500ms linear;
+
+
+    font-size: 4.8rem;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--clr-texth);
+    background: var(--clr-youtube);
+    border: var(--clr-youtube) .125em solid;
+    padding: .25em 1em;
+    border-radius: .25em;
+
+    text-shadow:none;
+    
+    box-shadow: 0 0 2em var(--clr-youtube), inset 0 0 .5em var(--clr-youtube);
+}
+

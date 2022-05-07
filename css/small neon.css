@@ -1,0 +1,50 @@
+/* Krasnej main page nastaveni */
+
+
+:root {
+    --clr-enter: rgb(255, 255, 255);
+    --clr-texth: rgb(0, 0, 0);
+}
+
+.enter{
+    transition: all 400ms linear;
+    font-size: 1rem;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--clr-enter);
+    border: var(--clr-enter) .125em solid;
+    padding: .20em .5em;
+    border-radius: .2em;
+
+    max-width: 13ch;
+
+    text-shadow:0 0 0.125em hsla(0, 0%, 100%, 0.466), 0 0 .50em var(--clr-enter);
+    
+    box-shadow: 0 0 1em var(--clr-enter), inset 0 0 .5em var(--clr-enter);
+
+    opacity: 0;
+    animation-name: neon;
+    animation-duration: .7s;
+    animation-delay: .7s;
+    animation-fill-mode: forwards;
+    white-space:normal;
+}
+
+.enter:hover{
+    transition: all 500ms linear;
+
+    font-size: 1.05rem;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    color: var(--clr-texth);
+    background: var(--clr-enter);
+    border: var(--clr-enter) .125em solid;
+    padding: .20em .5em;
+    border-radius: .25em;
+
+    text-shadow:none;
+    
+    box-shadow: 0 0 2em var(--clr-enter), inset 0 0 .5em var(--clr-enter);
+}

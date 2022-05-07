@@ -1,0 +1,9 @@
+/* List nastaveni */
+
+
+ul {
+    font-size: 100%;
+    list-style-image: linear-gradient(to bottom left, rgba(4, 0, 255, 0.164), rgb(234, 0, 255));
+    align-items: center;
+    justify-content:left;
+  }
