@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--favicon import-->
+    <link rel="apple-touch-icon" sizes="180x180" href="fav/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="fav/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="fav/favicon-16x16.png">
+    <link rel="manifest" href="fav/site.webmanifest">
+    <link rel="mask-icon" href="fav/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wrexik</title>
+
+    <!--vlozeni css-->
+    <link rel="stylesheet" href="css/list.css">
+    <link rel="stylesheet" href="css/info.css">
+    <link rel="stylesheet" href="css/small neon.css">
+    <link rel="stylesheet" href="css/scrollbar.css">
+</head>
+
+<main>
+    <h1 class="h1" title="That's my nickname!" >Wrexik</h1>
+    <body class="center">
+    <a title="Go to my social sites" class="enter" href="socials.html">My Socials</a>
+    <a title="Go to my contact's" class="enter" href="contact.html">Contact Me!</a>
+    <p>Hey 👋, I'm Wrexik that's my nickname, my real name is Kryštof. I'm 14 years old and I'm from Czechia 🍺. I'm just gamer and amateur programmer who copies from Stackoverflow.</p>
+    <p>4/5/2022 🟢Update: Completly changed website! also I'm planing some minecraft Let's Play series. Looking forward to it! 🎥</p>
+    <p>2/5/2022 🔴Update: Huge stream might me comming UP! Spam that follow button 🤣.</p>
+    <p>2/4/2022 🔴Update: Changing look of this page! I think it looks cool 💜 Gonna head to bed now it's 11pm.</p>
+    <p>31/4/2022 🔴Update: Okay, my pc can't handle gaming and streaming 🤣😥. OBS 40%, Webcam 25% CPU else for the game.</p>
+    <p>30/4/2022 🔴Update: I got the Canon M50 📸 for 300$ and now also using it to stream on my twitch 🤪.</p>
+    <p>20/4/2022 🔴Update: Found AMAZING deal on Facebook marketplace!</p>
+    <p>13/3/2022 🔴At the moment: I'm looking for a dslr so I can start taking pictures, I found it really interesting.</p>
+</main>
+</body>
+
+<script>
+    function startTime() {
+    date = new Date();
+    year = date.getFullYear();
+    month = date.getMonth() + 1;
+    day = date.getDate();
+    document.getElementById("date").innerHTML = day + "/" + month + "/" + year;
+    setTimeout(startTime, 1000);
+    }
+</script>
+
+<style>
+    .stole{
+        font-size: 2vh;
+        transition: all 200ms;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        box-shadow: 0 0 1vh rgb(255, 255, 255),inset 0 0 1vh rgb(255, 255, 255);
+        border: 3px rgb(255, 255, 255) solid;
+        border-radius: .3vh;
+        padding: .4vh;
+    }
+    
+    .stole:hover{
+            
+        text-shadow: 0 0 1vh rgb(255, 152, 255);
+        transition: all 500ms ;
+        font-size: 2.5ch;
+    } 
+
+</style>
+</link>
+<body onload="startTime()">
+    <div title="Yes I've stole that." id="date" class="stole"></div>
+</body>
+
+</html>
+
